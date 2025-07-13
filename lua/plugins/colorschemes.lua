@@ -3,15 +3,15 @@ return {
         "catppuccin/nvim",
         name = "catppuccin",
         lazy = false,
-        priority = 1000,
-        config = function()
-            vim.cmd.colorscheme "catppuccin"
-        end
+        priority = 1000 
     },
     {
         "olimorris/onedarkpro.nvim",
         lazy = false,
-        priority = 1000 
+        priority = 1000,
+        config = function()
+            vim.cmd.colorscheme "onedark"
+        end
     },
     {
         "cpea2506/one_monokai.nvim",
@@ -26,7 +26,7 @@ return {
     {
         'Mofiqul/vscode.nvim',
         lazy = false,
-        priority = 1000
+        priority = 1000 
     },
     {
         'glepnir/zephyr-nvim',
